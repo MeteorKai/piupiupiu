@@ -1,0 +1,4 @@
+<resources>
+    <!-- 原值是 "piupiupiu"，会出现在最近任务列表、设置-应用列表里 -->
+    <string name="app_name">PIUPIUPIU</string>
+</resources>

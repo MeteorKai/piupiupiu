@@ -1,0 +1,23 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+// 注：本文件在 rebrand 整理过程中丢失，此处据 gradle-wrapper.properties(gradle-3.3) 与
+// app/build.gradle(compileSdk 24 / buildTools 25.0.0) 重建为 AGP 2.3.3。
+// jcenter 已停止服务且 Maven Central 不含旧版 AGP，改用阿里云 public 镜像(聚合 jcenter+central+google)
+// 以联网补齐 AGP 2.3.3 及其传递依赖。Gradle 3.3 不支持 google() 方法，勿加。
+
+buildscript {
+    repositories {
+        maven { url 'https://maven.aliyun.com/repository/public' }
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:2.3.3'
+
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+}
+
+allprojects {
+    repositories {
+        maven { url 'https://maven.aliyun.com/repository/public' }
+    }
+}

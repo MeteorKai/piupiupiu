@@ -1,0 +1,18 @@
+{
+    "name": "piupiupiu",
+    "description": "Android Remote Administration Tool",
+    "author": "piupiupiu <piupiupiu@protonmail.com>",
+    "productName": "piupiupiu",
+    "version": "1.0.0",
+    "homepage":"https://github.com/piupiupiu/piupiupiu",
+    "main": "main.js",
+    "dependencies": {
+        "angular": "1.5.8",
+        "angular-route": "1.5.8",
+        "fs-extra": "^1.0.0",
+        "geoip-lite": "^1.1.8",
+        "homedir": "^0.6.0",
+        "semantic-ui": "2.2.6",
+        "ws": "1.0.1"
+    }
+}

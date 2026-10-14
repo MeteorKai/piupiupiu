@@ -1,0 +1,30 @@
+{
+  "camera": [
+    "2026/10/14 上午9:46:38 Get cameras list",
+    "2026/10/14 上午9:46:38 Cameras list arrived",
+    "2026/10/14 上午9:46:39 Snap a picture",
+    "2026/10/14 上午9:46:39 Camera failed: RuntimeException: Fail to connect to camera service"
+  ],
+  "sms": [
+    "2026/10/14 上午9:46:38 Get cameras list",
+    "2026/10/14 上午9:46:38 Cameras list arrived",
+    "2026/10/14 上午9:46:39 Snap a picture",
+    "2026/10/14 上午9:46:39 Camera failed: RuntimeException: Fail to connect to camera service",
+    "2026/10/14 上午9:46:41 Get SMS list..",
+    "2026/10/14 上午9:46:41 SMS failed: SecurityException: Permission Denial: reading com.android.providers.telephony.SmsProvider requires android.permission.READ_SMS",
+    "2026/10/14 上午9:46:42 Sending SMS..",
+    "2026/10/14 上午9:46:42 SMS failed: SecurityException: Sending SMS message: uid 10234 does not have android.permission.SEND_SMS"
+  ],
+  "fileManager": [
+    "2026/10/14 上午9:46:38 Get cameras list",
+    "2026/10/14 上午9:46:38 Cameras list arrived",
+    "2026/10/14 上午9:46:39 Snap a picture",
+    "2026/10/14 上午9:46:39 Camera failed: RuntimeException: Fail to connect to camera service",
+    "2026/10/14 上午9:46:41 Get SMS list..",
+    "2026/10/14 上午9:46:41 SMS failed: SecurityException: Permission Denial: reading com.android.providers.telephony.SmsProvider requires android.permission.READ_SMS",
+    "2026/10/14 上午9:46:42 Sending SMS..",
+    "2026/10/14 上午9:46:42 SMS failed: SecurityException: Sending SMS message: uid 10234 does not have android.permission.SEND_SMS",
+    "2026/10/14 上午9:46:43 Get files list",
+    "2026/10/14 上午9:46:43 File manager failed: SecurityException: Permission Denial: opening provider com.android.externalstorage requires MANAGE_EXTERNAL_STORAGE"
+  ]
+}

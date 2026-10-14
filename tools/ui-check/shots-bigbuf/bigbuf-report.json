@@ -1,0 +1,51 @@
+{
+  "steps": [
+    {
+      "size": 512000,
+      "elapsedMs": 6010,
+      "logsTail": [
+        "2026/10/14 上午10:02:13 Picture arrived",
+        "2026/10/14 上午10:02:13 Saving picture..",
+        "2026/10/14 上午10:02:13 Picture saved on C:\\Users\\TY\\piupiupiu\\Downloads\\1791943333930.jpg"
+      ]
+    },
+    {
+      "size": 1536000,
+      "elapsedMs": 6013,
+      "logsTail": [
+        "2026/10/14 上午10:02:19 Picture arrived",
+        "2026/10/14 上午10:02:20 Saving picture..",
+        "2026/10/14 上午10:02:20 Picture saved on C:\\Users\\TY\\piupiupiu\\Downloads\\1791943340064.jpg"
+      ]
+    },
+    {
+      "size": 3072000,
+      "elapsedMs": 6019,
+      "logsTail": [
+        "2026/10/14 上午10:02:25 Picture arrived",
+        "2026/10/14 上午10:02:26 Saving picture..",
+        "2026/10/14 上午10:02:26 Picture saved on C:\\Users\\TY\\piupiupiu\\Downloads\\1791943346364.jpg"
+      ]
+    }
+  ],
+  "createdFiles": [
+    {
+      "name": "1791943333930.jpg",
+      "size": 512000,
+      "matchedSent": true,
+      "bytesEqual": true
+    },
+    {
+      "name": "1791943340064.jpg",
+      "size": 1536000,
+      "matchedSent": true,
+      "bytesEqual": true
+    },
+    {
+      "name": "1791943346364.jpg",
+      "size": 3072000,
+      "matchedSent": true,
+      "bytesEqual": true
+    }
+  ]
+}

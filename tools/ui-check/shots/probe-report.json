@@ -1,0 +1,310 @@
+{
+  "F0_original": {
+    "viewport": {
+      "w": 600,
+      "h": 651,
+      "dpr": 1.25
+    },
+    "rects": {
+      "grid": {
+        "x": 6,
+        "y": -14,
+        "w": 588,
+        "h": 521,
+        "bottom": 507
+      },
+      "column": {
+        "x": 6,
+        "y": 130.2,
+        "w": 588,
+        "h": 649.8,
+        "bottom": 780
+      },
+      "outerSegment": {
+        "x": 20,
+        "y": 130.2,
+        "w": 560,
+        "h": 649.8,
+        "bottom": 780
+      },
+      "ngview": {
+        "x": 35,
+        "y": 145.2,
+        "w": 530,
+        "h": 619.8,
+        "bottom": 765
+      },
+      "parent": {
+        "x": 35,
+        "y": 145.2,
+        "w": 530,
+        "h": 619.8,
+        "bottom": 765
+      },
+      "list": {
+        "x": 50,
+        "y": 160.2,
+        "w": 500,
+        "h": 589.8,
+        "bottom": 750
+      },
+      "logy": {
+        "x": 19,
+        "y": 493,
+        "w": 562,
+        "h": 130.2,
+        "bottom": 623.2
+      }
+    },
+    "coveredItems": [
+      {
+        "i": 15,
+        "name": "download.pdf",
+        "byLogy": true
+      },
+      {
+        "i": 16,
+        "name": "IMG_20251031_201205.jpg",
+        "byLogy": true
+      },
+      {
+        "i": 17,
+        "name": "IMG_20251031_201233.jpg",
+        "byLogy": true
+      },
+      {
+        "i": 18,
+        "name": "IMG_20251102_091012.jpg",
+        "byLogy": true
+      }
+    ],
+    "scroll": {
+      "docSH": 780,
+      "docCH": 651,
+      "parent": {
+        "sh": 618,
+        "ch": 618,
+        "canScroll": false
+      },
+      "logyRect": {
+        "x": 19,
+        "y": 493,
+        "w": 562,
+        "h": 130.2,
+        "bottom": 623.2
+      }
+    }
+  },
+  "F1_col_h100": {
+    "viewport": {
+      "w": 600,
+      "h": 651,
+      "dpr": 1.25
+    },
+    "rects": {
+      "grid": {
+        "x": 6,
+        "y": -14,
+        "w": 588,
+        "h": 521,
+        "bottom": 507
+      },
+      "column": {
+        "x": 6,
+        "y": 130.2,
+        "w": 588,
+        "h": 362.7,
+        "bottom": 492.9
+      },
+      "outerSegment": {
+        "x": 20,
+        "y": 130.2,
+        "w": 560,
+        "h": 362.7,
+        "bottom": 492.9
+      },
+      "ngview": {
+        "x": 35,
+        "y": 145.2,
+        "w": 530,
+        "h": 332.7,
+        "bottom": 477.9
+      },
+      "parent": {
+        "x": 35,
+        "y": 145.2,
+        "w": 530,
+        "h": 332.7,
+        "bottom": 477.9
+      },
+      "list": {
+        "x": 50,
+        "y": 160.2,
+        "w": 500,
+        "h": 589.8,
+        "bottom": 750
+      },
+      "logy": {
+        "x": 19,
+        "y": 493,
+        "w": 562,
+        "h": 130.2,
+        "bottom": 623.2
+      }
+    },
+    "coveredItems": [
+      {
+        "i": 14,
+        "name": ".nomedia",
+        "byLogy": false
+      },
+      {
+        "i": 15,
+        "name": "download.pdf",
+        "byLogy": true
+      },
+      {
+        "i": 16,
+        "name": "IMG_20251031_201205.jpg",
+        "byLogy": true
+      },
+      {
+        "i": 17,
+        "name": "IMG_20251031_201233.jpg",
+        "byLogy": true
+      },
+      {
+        "i": 18,
+        "name": "IMG_20251102_091012.jpg",
+        "byLogy": true
+      },
+      {
+        "i": 19,
+        "name": "logcat_export.txt",
+        "byLogy": false
+      }
+    ],
+    "scroll": {
+      "docSH": 651,
+      "docCH": 651,
+      "parent": {
+        "sh": 618,
+        "ch": 331,
+        "canScroll": true
+      },
+      "logyRect": {
+        "x": 19,
+        "y": 493,
+        "w": 562,
+        "h": 130.2,
+        "bottom": 623.2
+      }
+    }
+  },
+  "F2_log_pinned": {
+    "viewport": {
+      "w": 600,
+      "h": 651,
+      "dpr": 1.25
+    },
+    "rects": {
+      "grid": {
+        "x": 6,
+        "y": -14,
+        "w": 588,
+        "h": 521,
+        "bottom": 507
+      },
+      "column": {
+        "x": 6,
+        "y": 130.2,
+        "w": 588,
+        "h": 362.7,
+        "bottom": 492.9
+      },
+      "outerSegment": {
+        "x": 20,
+        "y": 130.2,
+        "w": 560,
+        "h": 362.7,
+        "bottom": 492.9
+      },
+      "ngview": {
+        "x": 35,
+        "y": 145.2,
+        "w": 530,
+        "h": 332.7,
+        "bottom": 477.9
+      },
+      "parent": {
+        "x": 35,
+        "y": 145.2,
+        "w": 530,
+        "h": 332.7,
+        "bottom": 477.9
+      },
+      "list": {
+        "x": 50,
+        "y": 160.2,
+        "w": 500,
+        "h": 589.8,
+        "bottom": 750
+      },
+      "logy": {
+        "x": 10,
+        "y": 521,
+        "w": 580,
+        "h": 130.3,
+        "bottom": 651.2
+      }
+    },
+    "coveredItems": [
+      {
+        "i": 14,
+        "name": ".nomedia",
+        "byLogy": false
+      },
+      {
+        "i": 15,
+        "name": "download.pdf",
+        "byLogy": false
+      },
+      {
+        "i": 16,
+        "name": "IMG_20251031_201205.jpg",
+        "byLogy": true
+      },
+      {
+        "i": 17,
+        "name": "IMG_20251031_201233.jpg",
+        "byLogy": true
+      },
+      {
+        "i": 18,
+        "name": "IMG_20251102_091012.jpg",
+        "byLogy": true
+      },
+      {
+        "i": 19,
+        "name": "logcat_export.txt",
+        "byLogy": true
+      }
+    ],
+    "scroll": {
+      "docSH": 651,
+      "docCH": 651,
+      "parent": {
+        "sh": 618,
+        "ch": 331,
+        "canScroll": true
+      },
+      "logyRect": {
+        "x": 10,
+        "y": 521,
+        "w": 580,
+        "h": 130.3,
+        "bottom": 651.2
+      }
+    }
+  }
+}

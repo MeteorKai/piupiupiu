@@ -1,0 +1,70 @@
+apply plugin: 'com.android.application'
+
+// ---- 发布签名 ----
+// 凭据放在项目根目录的 keystore.properties（不要提交到版本库）。
+// 文件不存在时自动回退到 debug 签名，保证换机器也能编出包。
+def keystorePropsFile = rootProject.file("keystore.properties")
+def keystoreProps = new Properties()
+def hasKeystore = false
+if (keystorePropsFile.exists()) {
+    keystoreProps.load(new FileInputStream(keystorePropsFile))
+    hasKeystore = keystorePropsFile.exists()
+}
+
+android {
+    compileSdkVersion 24
+    buildToolsVersion '25.0.0'
+    defaultConfig {
+        applicationId "com.piupiupiu"
+        minSdkVersion 11
+        targetSdkVersion 24
+        versionCode 1
+        versionName "1.0"
+    }
+    signingConfigs {
+        release {
+            if (hasKeystore) {
+                // 用你自己的密钥签名（JKS 副本，见 keystore.properties）
+                storeFile rootProject.file(keystoreProps['storeFile'])
+                storePassword keystoreProps['storePassword']
+                keyAlias keystoreProps['keyAlias']
+                keyPassword keystoreProps['keyPassword']
+            } else {
+                // 回退：本机 debug 签名。注意 CN=Android Debug 会被启发式加分。
+                storeFile file(System.properties['user.home'] + "/.android/debug.keystore")
+                storePassword 'android'
+                keyAlias 'androiddebugkey'
+                keyPassword 'android'
+            }
+        }
+    }
+    buildTypes {
+        release {
+            signingConfig signingConfigs.release
+            // 重新打开 ProGuard：压缩（shrink）+ 改名（obfuscate）。
+            // 注意：只做压缩+改名，不开 -optimize（用 proguard-android.txt），避免误伤 okhttp3。
+            // 混淆对 VT 检出率基本无影响（AV 按包名+权限+框架特征匹配），但能增加逆向成本。
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        debug {
+            minifyEnabled false
+        }
+    }
+    lintOptions {
+        abortOnError false
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+
+    // 方案 B：去掉 io.socket:socket.io-client，改用 WebSocket 传输。
+    // okhttp 原本是 socket.io 的传递依赖，移除 socket.io 后会跟着消失，
+    // 所以这里必须**显式声明**，否则编译报 okhttp3 包不存在。
+    // 版本选 3.5.0：它已在 gradle 缓存里（离线可编），且是首个提供 WebSocket API 的版本。
+    // 若需要更稳的版本可改 3.12.13（3.x 最后一个 Java 版，需联网下载）。
+    compile 'com.squareup.okhttp3:okhttp:3.5.0'
+
+    testCompile 'junit:junit:4.12'
+}

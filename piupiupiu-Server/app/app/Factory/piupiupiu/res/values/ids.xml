@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="tvTitle" />
+    <item type="id" name="tvHint" />
+    <item type="id" name="etGuess" />
+    <item type="id" name="btnGuess" />
+    <item type="id" name="tvResult" />
+    <item type="id" name="tvAttempts" />
+    <item type="id" name="btnRestart" />
+</resources>

@@ -1,0 +1,305 @@
+{
+  "fileManager_initial": {
+    "viewport": {
+      "w": 600,
+      "h": 651
+    },
+    "ngViewRect": {
+      "x": 35,
+      "y": 145.2,
+      "w": 530,
+      "h": 332.7,
+      "bottom": 477.9
+    },
+    "parentRect": {
+      "x": 35,
+      "y": 145.2,
+      "w": 530,
+      "h": 332.7,
+      "bottom": 477.9
+    },
+    "logyRect": {
+      "x": 10,
+      "y": 521,
+      "w": 580,
+      "h": 130.3,
+      "bottom": 651.2
+    },
+    "covered": [],
+    "scroll": {
+      "docSH": 651,
+      "docCH": 651,
+      "parent": {
+        "sh": 618,
+        "ch": 331,
+        "canScroll": true,
+        "st": 0
+      },
+      "logy": {
+        "sh": 130,
+        "ch": 130,
+        "canScroll": false,
+        "st": 0
+      }
+    },
+    "parentLogyOverlap": 0
+  },
+  "fileManager_scrolledBottom": {
+    "viewport": {
+      "w": 600,
+      "h": 651
+    },
+    "ngViewRect": {
+      "x": 35,
+      "y": 145.2,
+      "w": 530,
+      "h": 332.7,
+      "bottom": 477.9
+    },
+    "parentRect": {
+      "x": 35,
+      "y": 145.2,
+      "w": 530,
+      "h": 332.7,
+      "bottom": 477.9
+    },
+    "logyRect": {
+      "x": 10,
+      "y": 521,
+      "w": 580,
+      "h": 130.3,
+      "bottom": 651.2
+    },
+    "covered": [],
+    "scroll": {
+      "docSH": 651,
+      "docCH": 651,
+      "parent": {
+        "sh": 618,
+        "ch": 331,
+        "canScroll": true,
+        "st": 286.3999938964844
+      },
+      "logy": {
+        "sh": 130,
+        "ch": 130,
+        "canScroll": false,
+        "st": 0
+      }
+    },
+    "parentLogyOverlap": 0
+  },
+  "fileManager_logsFull": {
+    "viewport": {
+      "w": 600,
+      "h": 651
+    },
+    "ngViewRect": {
+      "x": 35,
+      "y": 145.2,
+      "w": 530,
+      "h": 332.7,
+      "bottom": 477.9
+    },
+    "parentRect": {
+      "x": 35,
+      "y": 145.2,
+      "w": 530,
+      "h": 332.7,
+      "bottom": 477.9
+    },
+    "logyRect": {
+      "x": 10,
+      "y": 521,
+      "w": 580,
+      "h": 130.3,
+      "bottom": 651.2
+    },
+    "covered": [],
+    "scroll": {
+      "docSH": 651,
+      "docCH": 651,
+      "parent": {
+        "sh": 618,
+        "ch": 331,
+        "canScroll": true,
+        "st": 286.3999938964844
+      },
+      "logy": {
+        "sh": 1218,
+        "ch": 130,
+        "canScroll": true,
+        "st": 1088
+      }
+    },
+    "parentLogyOverlap": 0
+  },
+  "contacts": {
+    "viewport": {
+      "w": 600,
+      "h": 651
+    },
+    "ngViewRect": {
+      "x": 35,
+      "y": 145.2,
+      "w": 530,
+      "h": 332.7,
+      "bottom": 477.9
+    },
+    "parentRect": {
+      "x": 35,
+      "y": 145.2,
+      "w": 530,
+      "h": 332.7,
+      "bottom": 477.9
+    },
+    "logyRect": {
+      "x": 10,
+      "y": 521,
+      "w": 580,
+      "h": 130.3,
+      "bottom": 651.2
+    },
+    "covered": [],
+    "scroll": {
+      "docSH": 651,
+      "docCH": 651,
+      "parent": {
+        "sh": 3619,
+        "ch": 331,
+        "canScroll": true,
+        "st": 0
+      },
+      "logy": {
+        "sh": 1257,
+        "ch": 130,
+        "canScroll": true,
+        "st": 1126.4000244140625
+      }
+    },
+    "parentLogyOverlap": 0
+  },
+  "callsLogs": {
+    "viewport": {
+      "w": 600,
+      "h": 651
+    },
+    "ngViewRect": {
+      "x": 35,
+      "y": 145.2,
+      "w": 530,
+      "h": 332.7,
+      "bottom": 477.9
+    },
+    "parentRect": {
+      "x": 35,
+      "y": 145.2,
+      "w": 530,
+      "h": 332.7,
+      "bottom": 477.9
+    },
+    "logyRect": {
+      "x": 10,
+      "y": 521,
+      "w": 580,
+      "h": 130.3,
+      "bottom": 651.2
+    },
+    "covered": [],
+    "scroll": {
+      "docSH": 651,
+      "docCH": 651,
+      "parent": {
+        "sh": 4107,
+        "ch": 331,
+        "canScroll": true,
+        "st": 0
+      },
+      "logy": {
+        "sh": 1295,
+        "ch": 130,
+        "canScroll": true,
+        "st": 1164.800048828125
+      }
+    },
+    "parentLogyOverlap": 0
+  },
+  "camera": {
+    "viewport": {
+      "w": 600,
+      "h": 651
+    },
+    "ngViewRect": {
+      "x": 35,
+      "y": 145.2,
+      "w": 530,
+      "h": 332.7,
+      "bottom": 477.9
+    },
+    "parentRect": null,
+    "logyRect": {
+      "x": 10,
+      "y": 521,
+      "w": 580,
+      "h": 130.3,
+      "bottom": 651.2
+    },
+    "covered": [],
+    "scroll": {
+      "docSH": 651,
+      "docCH": 651,
+      "parent": null,
+      "logy": {
+        "sh": 1334,
+        "ch": 130,
+        "canScroll": true,
+        "st": 1203.199951171875
+      }
+    }
+  },
+  "fileManager_again": {
+    "viewport": {
+      "w": 600,
+      "h": 651
+    },
+    "ngViewRect": {
+      "x": 35,
+      "y": 145.2,
+      "w": 530,
+      "h": 332.7,
+      "bottom": 477.9
+    },
+    "parentRect": {
+      "x": 35,
+      "y": 145.2,
+      "w": 530,
+      "h": 332.7,
+      "bottom": 477.9
+    },
+    "logyRect": {
+      "x": 10,
+      "y": 521,
+      "w": 580,
+      "h": 130.3,
+      "bottom": 651.2
+    },
+    "covered": [],
+    "scroll": {
+      "docSH": 651,
+      "docCH": 651,
+      "parent": {
+        "sh": 618,
+        "ch": 331,
+        "canScroll": true,
+        "st": 0
+      },
+      "logy": {
+        "sh": 1372,
+        "ch": 130,
+        "canScroll": true,
+        "st": 1241.5999755859375
+      }
+    },
+    "parentLogyOverlap": 0
+  }
+}

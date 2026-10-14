@@ -1,0 +1,98 @@
+{
+  "downloadDir": "C:\\Users\\TY\\piupiupiu\\Downloads",
+  "before": [
+    {
+      "f": "1791941378756.jpg",
+      "size": 69641
+    },
+    {
+      "f": "1791941386263.jpg",
+      "size": 69641
+    }
+  ],
+  "stepA_cameraList": {
+    "logs": [
+      "2026/10/14 上午9:29:52 Get cameras list",
+      "2026/10/14 上午9:29:52 Cameras list arrived",
+      "2026/10/14 上午9:29:52 No camera found on the device"
+    ],
+    "ribbon": "missing",
+    "img": {
+      "srcPrefix": "./assets/img/imageHolder.png",
+      "naturalW": 614,
+      "naturalH": 460
+    },
+    "dropdownValue": "",
+    "lastLog": {
+      "text": "2026/10/14 上午9:29:52 No camera found on the device",
+      "fullyVisible": true,
+      "overflowBottomPx": -58.6,
+      "panelScroll": {
+        "top": 0,
+        "sh": 130,
+        "ch": 130
+      }
+    }
+  },
+  "stepB_snapped": {
+    "logs": [
+      "2026/10/14 上午9:29:52 Get cameras list",
+      "2026/10/14 上午9:29:52 Cameras list arrived",
+      "2026/10/14 上午9:29:52 No camera found on the device",
+      "2026/10/14 上午9:29:53 No camera selected (camera list is empty)"
+    ],
+    "ribbon": "missing",
+    "img": {
+      "srcPrefix": "./assets/img/imageHolder.png",
+      "naturalW": 614,
+      "naturalH": 460
+    },
+    "dropdownValue": "",
+    "lastLog": {
+      "text": "2026/10/14 上午9:29:53 No camera selected (camera list is empty)",
+      "fullyVisible": true,
+      "overflowBottomPx": -39.5,
+      "panelScroll": {
+        "top": 0,
+        "sh": 130,
+        "ch": 130
+      }
+    }
+  },
+  "stepC_saved": {
+    "logs": [
+      "2026/10/14 上午9:29:52 Get cameras list",
+      "2026/10/14 上午9:29:52 Cameras list arrived",
+      "2026/10/14 上午9:29:52 No camera found on the device",
+      "2026/10/14 上午9:29:53 No camera selected (camera list is empty)"
+    ],
+    "ribbon": "missing",
+    "img": {
+      "srcPrefix": "./assets/img/imageHolder.png",
+      "naturalW": 614,
+      "naturalH": 460
+    },
+    "dropdownValue": "",
+    "lastLog": {
+      "text": "2026/10/14 上午9:29:53 No camera selected (camera list is empty)",
+      "fullyVisible": true,
+      "overflowBottomPx": -39.5,
+      "panelScroll": {
+        "top": 0,
+        "sh": 130,
+        "ch": 130
+      }
+    }
+  },
+  "after": [
+    {
+      "f": "1791941378756.jpg",
+      "size": 69641
+    },
+    {
+      "f": "1791941386263.jpg",
+      "size": 69641
+    }
+  ],
+  "createdFiles": []
+}

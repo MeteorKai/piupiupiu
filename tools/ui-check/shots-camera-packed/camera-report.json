@@ -1,0 +1,111 @@
+{
+  "downloadDir": "C:\\Users\\TY\\piupiupiu\\Downloads",
+  "before": [
+    {
+      "f": "1791939958658.jpg",
+      "size": 69641
+    },
+    {
+      "f": "1791940030676.jpg",
+      "size": 69641
+    }
+  ],
+  "stepA_cameraList": {
+    "logs": [
+      "2026/10/14 上午9:08:30 Get cameras list",
+      "2026/10/14 上午9:08:30 Cameras list arrived"
+    ],
+    "ribbon": "missing",
+    "img": {
+      "srcPrefix": "./assets/img/imageHolder.png",
+      "naturalW": 614,
+      "naturalH": 460
+    },
+    "dropdownValue": "object:11",
+    "lastLog": {
+      "text": "2026/10/14 上午9:08:30 Cameras list arrived",
+      "fullyVisible": true,
+      "overflowBottomPx": -77.8,
+      "panelScroll": {
+        "top": 0,
+        "sh": 130,
+        "ch": 130
+      }
+    }
+  },
+  "stepB_snapped": {
+    "logs": [
+      "2026/10/14 上午9:08:30 Get cameras list",
+      "2026/10/14 上午9:08:30 Cameras list arrived",
+      "2026/10/14 上午9:08:31 Snap a picture",
+      "2026/10/14 上午9:08:31 Picture arrived",
+      "2026/10/14 上午9:08:31 Saving picture..",
+      "2026/10/14 上午9:08:31 Picture saved on C:\\Users\\TY\\piupiupiu\\Downloads\\1791940111868.jpg"
+    ],
+    "ribbon": "missing",
+    "img": {
+      "srcPrefix": "data:image/png;base64,iVBORw0KGgoA",
+      "naturalW": 256,
+      "naturalH": 256
+    },
+    "dropdownValue": "object:11",
+    "lastLog": {
+      "text": "2026/10/14 上午9:08:31 Picture saved on C:\\Users\\TY\\piupiupiu\\Downloads\\1791940111868.jpg",
+      "fullyVisible": true,
+      "overflowBottomPx": -13.8,
+      "panelScroll": {
+        "top": 32,
+        "sh": 162,
+        "ch": 130
+      }
+    }
+  },
+  "stepC_saved": {
+    "logs": [
+      "2026/10/14 上午9:08:30 Get cameras list",
+      "2026/10/14 上午9:08:30 Cameras list arrived",
+      "2026/10/14 上午9:08:31 Snap a picture",
+      "2026/10/14 上午9:08:31 Picture arrived",
+      "2026/10/14 上午9:08:31 Saving picture..",
+      "2026/10/14 上午9:08:31 Picture saved on C:\\Users\\TY\\piupiupiu\\Downloads\\1791940111868.jpg"
+    ],
+    "ribbon": "missing",
+    "img": {
+      "srcPrefix": "data:image/png;base64,iVBORw0KGgoA",
+      "naturalW": 256,
+      "naturalH": 256
+    },
+    "dropdownValue": "object:11",
+    "lastLog": {
+      "text": "2026/10/14 上午9:08:31 Picture saved on C:\\Users\\TY\\piupiupiu\\Downloads\\1791940111868.jpg",
+      "fullyVisible": true,
+      "overflowBottomPx": -13.8,
+      "panelScroll": {
+        "top": 32,
+        "sh": 162,
+        "ch": 130
+      }
+    }
+  },
+  "after": [
+    {
+      "f": "1791939958658.jpg",
+      "size": 69641
+    },
+    {
+      "f": "1791940030676.jpg",
+      "size": 69641
+    },
+    {
+      "f": "1791940111868.jpg",
+      "size": 69641
+    }
+  ],
+  "createdFiles": [
+    {
+      "name": "1791940111868.jpg",
+      "size": 69641,
+      "bytesMatchSourcePng": true
+    }
+  ]
+}

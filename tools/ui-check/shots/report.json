@@ -1,0 +1,627 @@
+{
+  "steps": {
+    "initial": {
+      "viewport": {
+        "w": 600,
+        "h": 651,
+        "dpr": 1.25
+      },
+      "rects": {
+        "grid": {
+          "x": 6,
+          "y": -14,
+          "w": 588,
+          "h": 521,
+          "bottom": 507
+        },
+        "rowHeader": {
+          "x": 6,
+          "y": -14,
+          "w": 588,
+          "h": 52.1,
+          "bottom": 38.1
+        },
+        "rowMenu": {
+          "x": 6,
+          "y": 38.1,
+          "w": 588,
+          "h": 78.1,
+          "bottom": 116.2
+        },
+        "rowContent": {
+          "x": 6,
+          "y": 116.2,
+          "w": 588,
+          "h": 390.7,
+          "bottom": 506.9
+        },
+        "column": {
+          "x": 6,
+          "y": 130.2,
+          "w": 588,
+          "h": 649.8,
+          "bottom": 780
+        },
+        "outerSegment": {
+          "x": 20,
+          "y": 130.2,
+          "w": 560,
+          "h": 649.8,
+          "bottom": 780
+        },
+        "ngview": {
+          "x": 35,
+          "y": 145.2,
+          "w": 530,
+          "h": 619.8,
+          "bottom": 765
+        },
+        "parent": {
+          "x": 35,
+          "y": 145.2,
+          "w": 530,
+          "h": 619.8,
+          "bottom": 765
+        },
+        "list": {
+          "x": 50,
+          "y": 160.2,
+          "w": 500,
+          "h": 589.8,
+          "bottom": 750
+        },
+        "firstItem": {
+          "x": 50,
+          "y": 160.2,
+          "w": 500,
+          "h": 19,
+          "bottom": 179.2
+        },
+        "lastItem": {
+          "x": 50,
+          "y": 721,
+          "w": 500,
+          "h": 29,
+          "bottom": 750
+        },
+        "logy": {
+          "x": 19,
+          "y": 493,
+          "w": 562,
+          "h": 130.2,
+          "bottom": 623.2
+        }
+      },
+      "itemCount": 23,
+      "computedHeights": {
+        "grid": "520.95px",
+        "rowContent": "390.712px",
+        "parent": "619.775px",
+        "logy": "130.238px",
+        "body": "651.2px"
+      },
+      "coveredItems": [
+        {
+          "i": 15,
+          "name": "download.pdf",
+          "byLogy": true,
+          "topEl": "log ng-scope"
+        },
+        {
+          "i": 16,
+          "name": "IMG_20251031_201205.jpg",
+          "byLogy": true,
+          "topEl": "log ng-scope"
+        },
+        {
+          "i": 17,
+          "name": "IMG_20251031_201233.jpg",
+          "byLogy": true,
+          "topEl": "w65 ng-binding"
+        },
+        {
+          "i": 18,
+          "name": "IMG_20251102_091012.jpg",
+          "byLogy": true,
+          "topEl": "logy"
+        }
+      ],
+      "scanColumnAtX": 115,
+      "scan": [
+        "4:sixteen wide column",
+        "16:ui inverted mini text labeled icon m",
+        "28:ui inverted mini text labeled icon m",
+        "40:row h15 notDraggable",
+        "52:ui mini borderless labeled icon flui",
+        "64:item",
+        "76:item",
+        "88:item",
+        "100:item",
+        "112:row h15 notDraggable",
+        "124:row centered h75 notDraggable ",
+        "136:ui segment full",
+        "148:parent",
+        "160:ng-binding ng-scope",
+        "172:ng-binding ng-scope",
+        "184:ng-binding ng-scope",
+        "196:ng-binding ng-scope",
+        "208:ng-binding ng-scope",
+        "220:ng-binding ng-scope",
+        "232:item ng-scope",
+        "244:item ng-scope",
+        "256:ng-binding ng-scope",
+        "268:item ng-scope",
+        "280:ng-binding ng-scope",
+        "292:ng-binding ng-scope",
+        "304:ng-binding ng-scope",
+        "316:item ng-scope",
+        "328:item ng-scope",
+        "340:ng-binding ng-scope",
+        "352:ng-binding ng-scope",
+        "364:ng-binding ng-scope",
+        "376:item ng-scope",
+        "388:ng-binding ng-scope",
+        "400:item ng-scope",
+        "412:ng-binding ng-scope",
+        "424:ng-binding ng-scope",
+        "436:ng-binding ng-scope",
+        "448:ng-binding ng-scope",
+        "460:ng-binding ng-scope",
+        "472:ui label ng-binding ng-scope",
+        "484:ui label ng-binding ng-scope",
+        "496:logy",
+        "508:w30 ng-binding",
+        "520:w30 ng-binding",
+        "532:w30 ng-binding",
+        "544:w30 ng-binding",
+        "556:w30 ng-binding",
+        "568:w30 ng-binding",
+        "580:w30 ng-binding",
+        "592:logy",
+        "604:logy",
+        "616:logy",
+        "628:ui label ng-binding ng-scope",
+        "640:ui label ng-binding ng-scope"
+      ],
+      "scroll": {
+        "docSH": 780,
+        "docCH": 651,
+        "winY": 0,
+        "parent": {
+          "sh": 618,
+          "ch": 618,
+          "st": 0,
+          "ov": "auto"
+        },
+        "logy": {
+          "sh": 130,
+          "ch": 130,
+          "ov": "scroll"
+        }
+      },
+      "overlap": {
+        "logy_vs_grid": 14,
+        "logy_covers_grid_bottom": 14,
+        "parent_vs_logy": 130.2,
+        "parent_bottom_vs_grid_bottom": 258.1
+      }
+    },
+    "parentScrolled": {
+      "viewport": {
+        "w": 600,
+        "h": 651,
+        "dpr": 1.25
+      },
+      "rects": {
+        "grid": {
+          "x": 6,
+          "y": -14,
+          "w": 588,
+          "h": 521,
+          "bottom": 507
+        },
+        "rowHeader": {
+          "x": 6,
+          "y": -14,
+          "w": 588,
+          "h": 52.1,
+          "bottom": 38.1
+        },
+        "rowMenu": {
+          "x": 6,
+          "y": 38.1,
+          "w": 588,
+          "h": 78.1,
+          "bottom": 116.2
+        },
+        "rowContent": {
+          "x": 6,
+          "y": 116.2,
+          "w": 588,
+          "h": 390.7,
+          "bottom": 506.9
+        },
+        "column": {
+          "x": 6,
+          "y": 130.2,
+          "w": 588,
+          "h": 649.8,
+          "bottom": 780
+        },
+        "outerSegment": {
+          "x": 20,
+          "y": 130.2,
+          "w": 560,
+          "h": 649.8,
+          "bottom": 780
+        },
+        "ngview": {
+          "x": 35,
+          "y": 145.2,
+          "w": 530,
+          "h": 619.8,
+          "bottom": 765
+        },
+        "parent": {
+          "x": 35,
+          "y": 145.2,
+          "w": 530,
+          "h": 619.8,
+          "bottom": 765
+        },
+        "list": {
+          "x": 50,
+          "y": 160.2,
+          "w": 500,
+          "h": 589.8,
+          "bottom": 750
+        },
+        "firstItem": {
+          "x": 50,
+          "y": 160.2,
+          "w": 500,
+          "h": 19,
+          "bottom": 179.2
+        },
+        "lastItem": {
+          "x": 50,
+          "y": 721,
+          "w": 500,
+          "h": 29,
+          "bottom": 750
+        },
+        "logy": {
+          "x": 19,
+          "y": 493,
+          "w": 562,
+          "h": 130.2,
+          "bottom": 623.2
+        }
+      },
+      "itemCount": 23,
+      "computedHeights": {
+        "grid": "520.95px",
+        "rowContent": "390.712px",
+        "parent": "619.775px",
+        "logy": "130.238px",
+        "body": "651.2px"
+      },
+      "coveredItems": [
+        {
+          "i": 15,
+          "name": "download.pdf",
+          "byLogy": true,
+          "topEl": "log ng-scope"
+        },
+        {
+          "i": 16,
+          "name": "IMG_20251031_201205.jpg",
+          "byLogy": true,
+          "topEl": "log ng-scope"
+        },
+        {
+          "i": 17,
+          "name": "IMG_20251031_201233.jpg",
+          "byLogy": true,
+          "topEl": "w65 ng-binding"
+        },
+        {
+          "i": 18,
+          "name": "IMG_20251102_091012.jpg",
+          "byLogy": true,
+          "topEl": "logy"
+        }
+      ],
+      "scanColumnAtX": 115,
+      "scan": [
+        "4:sixteen wide column",
+        "16:ui inverted mini text labeled icon m",
+        "28:ui inverted mini text labeled icon m",
+        "40:row h15 notDraggable",
+        "52:ui mini borderless labeled icon flui",
+        "64:item",
+        "76:item",
+        "88:item",
+        "100:item",
+        "112:row h15 notDraggable",
+        "124:row centered h75 notDraggable ",
+        "136:ui segment full",
+        "148:parent",
+        "160:ng-binding ng-scope",
+        "172:ng-binding ng-scope",
+        "184:ng-binding ng-scope",
+        "196:ng-binding ng-scope",
+        "208:ng-binding ng-scope",
+        "220:ng-binding ng-scope",
+        "232:item ng-scope",
+        "244:item ng-scope",
+        "256:ng-binding ng-scope",
+        "268:item ng-scope",
+        "280:ng-binding ng-scope",
+        "292:ng-binding ng-scope",
+        "304:ng-binding ng-scope",
+        "316:item ng-scope",
+        "328:item ng-scope",
+        "340:ng-binding ng-scope",
+        "352:ng-binding ng-scope",
+        "364:ng-binding ng-scope",
+        "376:item ng-scope",
+        "388:ng-binding ng-scope",
+        "400:item ng-scope",
+        "412:ng-binding ng-scope",
+        "424:ng-binding ng-scope",
+        "436:ng-binding ng-scope",
+        "448:ng-binding ng-scope",
+        "460:ng-binding ng-scope",
+        "472:ui label ng-binding ng-scope",
+        "484:ui label ng-binding ng-scope",
+        "496:logy",
+        "508:w30 ng-binding",
+        "520:w30 ng-binding",
+        "532:w30 ng-binding",
+        "544:w30 ng-binding",
+        "556:w30 ng-binding",
+        "568:w30 ng-binding",
+        "580:w30 ng-binding",
+        "592:logy",
+        "604:logy",
+        "616:logy",
+        "628:ui label ng-binding ng-scope",
+        "640:ui label ng-binding ng-scope"
+      ],
+      "scroll": {
+        "docSH": 780,
+        "docCH": 651,
+        "winY": 0,
+        "parent": {
+          "sh": 618,
+          "ch": 618,
+          "st": 0,
+          "ov": "auto"
+        },
+        "logy": {
+          "sh": 130,
+          "ch": 130,
+          "ov": "scroll"
+        }
+      },
+      "overlap": {
+        "logy_vs_grid": 14,
+        "logy_covers_grid_bottom": 14,
+        "parent_vs_logy": 130.2,
+        "parent_bottom_vs_grid_bottom": 258.1
+      }
+    },
+    "docScrolled": {
+      "viewport": {
+        "w": 600,
+        "h": 651,
+        "dpr": 1.25
+      },
+      "rects": {
+        "grid": {
+          "x": 6,
+          "y": -142.8,
+          "w": 588,
+          "h": 521,
+          "bottom": 378.2
+        },
+        "rowHeader": {
+          "x": 6,
+          "y": -142.8,
+          "w": 588,
+          "h": 52.1,
+          "bottom": -90.7
+        },
+        "rowMenu": {
+          "x": 6,
+          "y": -90.7,
+          "w": 588,
+          "h": 78.1,
+          "bottom": -12.6
+        },
+        "rowContent": {
+          "x": 6,
+          "y": -12.6,
+          "w": 588,
+          "h": 390.7,
+          "bottom": 378.1
+        },
+        "column": {
+          "x": 6,
+          "y": 1.4,
+          "w": 588,
+          "h": 649.8,
+          "bottom": 651.2
+        },
+        "outerSegment": {
+          "x": 20,
+          "y": 1.4,
+          "w": 560,
+          "h": 649.8,
+          "bottom": 651.2
+        },
+        "ngview": {
+          "x": 35,
+          "y": 16.4,
+          "w": 530,
+          "h": 619.8,
+          "bottom": 636.2
+        },
+        "parent": {
+          "x": 35,
+          "y": 16.4,
+          "w": 530,
+          "h": 619.8,
+          "bottom": 636.2
+        },
+        "list": {
+          "x": 50,
+          "y": 31.4,
+          "w": 500,
+          "h": 589.8,
+          "bottom": 621.2
+        },
+        "firstItem": {
+          "x": 50,
+          "y": 31.4,
+          "w": 500,
+          "h": 19,
+          "bottom": 50.4
+        },
+        "lastItem": {
+          "x": 50,
+          "y": 592.2,
+          "w": 500,
+          "h": 29,
+          "bottom": 621.2
+        },
+        "logy": {
+          "x": 19,
+          "y": 364.1,
+          "w": 562,
+          "h": 130.2,
+          "bottom": 494.4
+        }
+      },
+      "itemCount": 23,
+      "computedHeights": {
+        "grid": "520.95px",
+        "rowContent": "390.712px",
+        "parent": "619.775px",
+        "logy": "130.238px",
+        "body": "651.2px"
+      },
+      "coveredItems": [
+        {
+          "i": 15,
+          "name": "download.pdf",
+          "byLogy": true,
+          "topEl": "log ng-scope"
+        },
+        {
+          "i": 16,
+          "name": "IMG_20251031_201205.jpg",
+          "byLogy": true,
+          "topEl": "log ng-scope"
+        },
+        {
+          "i": 17,
+          "name": "IMG_20251031_201233.jpg",
+          "byLogy": true,
+          "topEl": "w65 ng-binding"
+        },
+        {
+          "i": 18,
+          "name": "IMG_20251102_091012.jpg",
+          "byLogy": true,
+          "topEl": "logy"
+        }
+      ],
+      "scanColumnAtX": 115,
+      "scan": [
+        "4:ui segment full",
+        "16:parent",
+        "28:parent",
+        "40:ng-binding ng-scope",
+        "52:ng-binding ng-scope",
+        "64:ng-binding ng-scope",
+        "76:ng-binding ng-scope",
+        "88:ng-binding ng-scope",
+        "100:item ng-scope",
+        "112:item ng-scope",
+        "124:ng-binding ng-scope",
+        "136:item ng-scope",
+        "148:ng-binding ng-scope",
+        "160:item ng-scope",
+        "172:ng-binding ng-scope",
+        "184:item ng-scope",
+        "196:item ng-scope",
+        "208:ng-binding ng-scope",
+        "220:ng-binding ng-scope",
+        "232:ng-binding ng-scope",
+        "244:ng-binding ng-scope",
+        "256:ng-binding ng-scope",
+        "268:item ng-scope",
+        "280:ng-binding ng-scope",
+        "292:item ng-scope",
+        "304:ng-binding ng-scope",
+        "316:ng-binding ng-scope",
+        "328:ng-binding ng-scope",
+        "340:ui label ng-binding ng-scope",
+        "352:ui label ng-binding ng-scope",
+        "364:logy",
+        "376:logy",
+        "388:w30 ng-binding",
+        "400:w30 ng-binding",
+        "412:w30 ng-binding",
+        "424:w30 ng-binding",
+        "436:w30 ng-binding",
+        "448:w30 ng-binding",
+        "460:logy",
+        "472:logy",
+        "484:logy",
+        "496:item ng-scope",
+        "508:ui label ng-binding ng-scope",
+        "520:ui label ng-binding ng-scope",
+        "532:ui label ng-binding ng-scope",
+        "544:ui label ng-binding ng-scope",
+        "556:ui label ng-binding ng-scope",
+        "568:ui label ng-binding ng-scope",
+        "580:ui label ng-binding ng-scope",
+        "592:item ng-scope",
+        "604:ui label ng-binding ng-scope",
+        "616:ui label ng-binding ng-scope",
+        "628:parent",
+        "640:ui segment full"
+      ],
+      "scroll": {
+        "docSH": 780,
+        "docCH": 651,
+        "winY": 128.8000030517578,
+        "parent": {
+          "sh": 618,
+          "ch": 618,
+          "st": 0,
+          "ov": "auto"
+        },
+        "logy": {
+          "sh": 130,
+          "ch": 130,
+          "ov": "scroll"
+        }
+      },
+      "overlap": {
+        "logy_vs_grid": 14,
+        "logy_covers_grid_bottom": 14,
+        "parent_vs_logy": 130.2,
+        "parent_bottom_vs_grid_bottom": 258.1
+      }
+    }
+  },
+  "shots": [
+    "fm-initial.png",
+    "fm-parent-scrolled.png",
+    "fm-doc-scrolled.png"
+  ]
+}

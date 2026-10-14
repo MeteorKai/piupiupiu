@@ -1,0 +1,254 @@
+.full {
+  height: 100%;
+  width: 100%;
+}
+
+.h100 {
+  height: 100%;
+}
+
+.h5 {
+  height: 5%;
+}
+
+.h10 {
+  height: 10%;
+}
+
+.h15 {
+  height: 15%;
+}
+
+.h90 {
+  height: 90%;
+}
+
+.h95 {
+  height: 95%;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.h20 {
+  height: 20%;
+}
+
+.h30 {
+  height: 30%;
+}
+
+.h25 {
+  height: 25%;
+}
+
+.h40 {
+  height: 40%;
+}
+
+.h50 {
+  height: 50%;
+}
+
+.h60 {
+  height: 60%;
+}
+
+.h65 {
+  height: 65%;
+}
+
+.h70 {
+  height: 70%;
+}
+
+.h75 {
+  height: 75%;
+}
+
+.h80 {
+  height: 80%;
+}
+
+.h85 {
+  height: 85%;
+}
+
+.w30 {
+  width: 30%;
+}
+
+.w40 {
+  width: 40%;
+}
+
+.w50 {
+  width: 50%;
+}
+
+.w60 {
+  width: 60%;
+}
+
+.w65 {
+  width: 65%;
+}
+
+.w70 {
+  width: 70%;
+}
+
+.w90 {
+  width: 90%;
+}
+
+.w100 {
+  width: 100%;
+}
+
+.border {
+  border: 1px solid black;
+}
+
+.highlight {
+  background-color: #9E9E9E;
+}
+
+body, html {
+  padding: 0px 10px;
+}
+
+.nopadding {
+  padding: 0px;
+}
+
+.log {
+  font-size: 12px;
+  font-family: Courier New, Courier, monospace
+}
+
+.draggable {
+  -webkit-app-region: drag;
+}
+
+.notDraggable {
+  -webkit-app-region: no-drag;
+}
+
+/* ============================================================
+   piupiupiu · 柔和主题 (soft theme)
+   目的：降低生硬对比，增加圆角/柔和阴影/平滑过渡，
+   把纯黑、亮橙、亮红等 harsh 颜色换成柔和强调色。
+   依赖 index.html 等页面把本文件放在 semantic.min.css 之后加载。
+   ============================================================ */
+:root {
+  --piu-bg1: #f6f8fc;
+  --piu-bg2: #eaf0f9;
+  --piu-accent: #7b8cff;        /* 柔和长春花蓝，用于主操作 */
+  --piu-accent-d: #6172ee;      /* 强调色 hover */
+  --piu-ink: #434b5e;           /* 柔和深石板，替代纯黑文字 */
+  --piu-ink-soft: #6c7588;
+  --piu-line: #e4e9f1;          /* 柔和的描边色 */
+  --piu-shadow: 0 6px 20px rgba(74, 96, 160, 0.10);
+  --piu-radius: 12px;
+}
+
+/* 浅色柔和渐变背景 + 更柔的字体 */
+body, html {
+  background: linear-gradient(135deg, var(--piu-bg1), var(--piu-bg2)) fixed;
+  color: var(--piu-ink);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC",
+    "Microsoft YaHei", Roboto, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: .2px;
+}
+* { box-sizing: border-box; }
+
+/* 圆角 + 柔和阴影：表格 / 输入框 / 表单域 */
+body .ui.table,
+body .ui.input > input,
+body .ui.form .field > input,
+body .ui.input {
+  border-radius: var(--piu-radius) !important;
+  border-color: var(--piu-line) !important;
+}
+body .ui.table { box-shadow: var(--piu-shadow) !important; }
+
+/* 按钮：圆角、柔和阴影、平滑过渡、轻微上浮 */
+body .ui.button {
+  border-radius: 10px !important;
+  transition: all .18s ease !important;
+  box-shadow: 0 2px 8px rgba(74, 96, 160, 0.10) !important;
+  font-weight: 600 !important;
+}
+body .ui.button:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 6px 16px rgba(74, 96, 160, 0.16) !important;
+}
+
+/* 把生硬的"黑按钮"换成柔和强调色 */
+body .ui.black.button,
+body .ui.buttons .black.button {
+  background: var(--piu-accent) !important;
+  color: #fff !important;
+  box-shadow: 0 2px 10px rgba(123, 140, 255, 0.35) !important;
+}
+body .ui.black.button:hover { background: var(--piu-accent-d) !important; }
+
+/* 窗口控制小圆钮：亮橙/亮红 -> 柔和色 */
+body .ui.circular.orange.button { background: #9aa6c4 !important; color: #fff !important; }
+body .ui.circular.red.button   { background: #f0a39d !important; color: #fff !important; }
+body .ui.circular.button {
+  width: 22px; height: 22px; min-width: 22px; padding: 0;
+  box-shadow: 0 1px 4px rgba(74, 96, 160, 0.18) !important;
+}
+
+/* "Open The Lab" 黑色缎带标签 -> 强调色 */
+body .ui.black.ribbon.label { background: var(--piu-accent) !important; color: #fff !important; }
+
+/* 表格柔化：表头浅灰、行 hover 浅蓝 */
+body .ui.table thead th {
+  background: #f2f5fb !important;
+  color: var(--piu-ink-soft) !important;
+  font-weight: 600 !important;
+}
+body .ui.selectable.table tbody tr:hover { background: #eef3ff !important; }
+
+/* 底部日志栏：纯黑 -> 浅色柔面板 */
+body .ui.black.message,
+body .ui.attached.black.message {
+  background: #f3f6fb !important;
+  color: var(--piu-ink) !important;
+  border: none !important;
+  box-shadow: 0 -2px 14px rgba(74, 96, 160, 0.06) !important;
+}
+.log { color: var(--piu-ink-soft); }
+
+/* 通用描边 / 高亮柔化 */
+.border { border: 1px solid var(--piu-line) !important; }
+.highlight { background-color: #e9edfb !important; }
+
+/* 顶部标签页激活色 */
+body .ui.tabular.menu .item.active { color: var(--piu-accent-d) !important; }
+body .ui.tabular.menu .item.active:hover { color: var(--piu-accent) !important; }
+
+/* ============================================================
+   Lab 页布局修复：底部输出终端不再压住内容区（文件管理列表等）
+   原因：内容行的列没有显式高度，flex 行（.ui.grid>.row 带 flex-wrap:wrap）
+         的行高会被内容撑开 → ng-view/#parent 永远拿不到限定高度 →
+         文件列表不会在 #parent 内滚动，而是整体溢出页面；
+         底部终端 #logy 处于正常文档流，正好落在溢出列表的中间把它盖住。
+   修复：① lab.html 内容列补 h100（恢复「内容区固定高 + 列表内部滚动」的既有约定，
+            其他视图 camera/location/mic/contacts 的列本来就有 h100）；
+         ② 终端固定在窗口底部 20% 带状区（与 h80 网格精确互补，不再与内容重叠）。
+   ============================================================ */
+body.lab-page #logy {
+  position: fixed;
+  left: 10px;
+  right: 10px;
+  bottom: 0;
+  top: 80%;
+  height: auto;
+  margin: 0;
+}
